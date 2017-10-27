@@ -1,0 +1,214 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #47353a;
+}
+
+header {
+  padding: 10px 15px;
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav {
+  float:  right;
+  margin-top:  3px;
+}
+
+header nav a {
+  text-decoration:  none;
+  color: #47353a;
+  margin-left:  15px;
+  text-transform:  uppercase;
+  font-weight:  700;
+}
+
+.hero {
+  background-image: url(../assets/hero.jpg);
+  background-size:  cover;
+  background-position: right center;
+  padding-top: 230px;
+  padding-bottom: 200px;
+  
+}
+
+.hero div {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:  20px;
+  padding-right:  20px;
+  text-align:  center;
+}
+
+.hero div h2 {
+  font-family:  David Libre;
+  font-weight: 700;
+  font-size:  64px;
+  line-height: 1;
+  margin-bottom:  15px;
+}
+
+.hero div p {
+  max-width:  400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flowers {
+  overflow: hidden;
+}
+.flowers img {
+  width:  33%;
+}
+.quotes {
+  overflow: hidden;
+}
+.quotes div {
+  width: 50%;
+  float:  left;
+  padding:  50px 40px  40px;
+  text-align:  center;
+}
+.quotes img {
+  width:  75px;
+  border-radius:  50%;
+}
+
+.quotes blockquote {
+  font-size:  24px;
+  max-width:  65%;
+  margin:  10px auto;
+  line-height:  1.15;
+}
+
+.quotes div:nth-of-type(odd) {
+  background-color: #F7F1EE;
+}
+
+.quotes div:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.chair {
+  background-image:url(../assets/full-bleed.jpg);
+  background-position:  center bottom;
+  padding:  0;
+  height:  500px;
+}
+
+.logo {
+  background-color:  #eeae9f;
+  color:  #ffffff;
+  padding-top:  25px;
+  padding-bottom: 40px;
+  text-align:  center;
+}
+
+.logo p {
+  margin-bottom:  10px;
+  font-weight:  700;
+}
+.logo img {
+  padding-left:  45px;
+}
+
+footer {
+  background-color:  #47353A; 
+  padding:  25px 32px 25px 32px;
+  color: #CCC9CA;
+  font-weight:  700;
+  overflow:  hidden;
+}
+
+footer img {
+  float:  left;
+}
+
+footer p {
+  float:  right;
+  
+}
+
+@media (max-width: 800px) {
+  .logo img {
+  padding-left:  16px;
+  }
+}
+
+@media (max-width:680px) {
+  .logo img {
+    display: block;
+    margin:  32px auto 32px auto;
+    padding-left:  0;
+  }
+}
+
+@media (max-width:600px) {
+  
+  body {
+    font-size:  14px;
+  }
+  
+  header nav {
+    line-height:  24px;
+  }
+  .hero div h2 {
+    font-size:  32px;
+  }
+  
+  .hero {
+    padding-top:  80px;
+    padding-bottom:  80px;
+  }
+  
+  .quotes div {
+    float: none;
+    width:  auto;
+    padding:  30px 30px 40px 30px;
+  }
+  
+  .quotes blockquote {
+    max-width:  100%;
+    font-size:  20px;
+  }
+  
+  .quotes p {
+    display:none;
+  }
+  
+  .chair {
+    height: 320px;
+  }  
+}
+
+@media(max-width:430px) {
+  
+  header h1,
+  header nav {
+    float:  none;
+  }
+  
+  header h1 {
+    margin-bottom: 16px;
+  }
+  
+  header nav a {
+    margin-left:  0;
+    margin-right:  16px;
+  }
+ 
+  .flowers img {
+    width:  auto;
+  }
+  
+  footer {
+    padding: 30px 20px; 
+  }
+  
+}
+
